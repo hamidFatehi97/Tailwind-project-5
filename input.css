@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face{
+        font-family: Raleway;
+        font-weight: 400;
+        src: url(../fonts/Raleway-Regular.ttf) format(truetype);
+    }
+}
+
+.ficon:hover {
+    filter: invert(80%) sepia(37%) saturate(7048%) hue-rotate(132deg)
+      brightness(105%) contrast(104%);
+  }
